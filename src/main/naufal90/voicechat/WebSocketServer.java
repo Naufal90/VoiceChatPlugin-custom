@@ -1,4 +1,4 @@
-package main.naufal90.voicechatplugin;
+package main.naufal90.voicechat;
 
 import org.java-websocket.server.WebSocketServer;
 import org.java-websocket.WebSocket;

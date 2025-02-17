@@ -1,0 +1,16 @@
+# Config untuk VoiceChat Plugin
+
+# Port yang digunakan WebSocket
+websocket-port: 24454
+
+# Apakah proximity voice aktif?
+proximity-voice: true
+
+# Jarak maksimal untuk proximity voice (dalam blok Minecraft)
+proximity-range: 32
+
+# Apakah fitur group voice aktif?
+group-voice: true
+
+# Logging (true = aktif, false = mati)
+enable-logs: true

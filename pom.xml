@@ -27,11 +27,11 @@
         </repository>
 
         <!-- Repository CodeMC untuk API VoiceChat -->
-        <repository>
-            <id>codemc-repo</id>
-            <url>https://repo.codemc.io/repository/maven-public/</url>
-        </repository>
-    </repositories>
+       <repository>
+  <id>reposilite-repository-releases</id>
+  <name>henkelmax</name>
+  <url>https://maven.maxhenkel.de/releases</url>
+</repository>
 
     <dependencies>
         <!-- Spigot API -->
@@ -44,11 +44,10 @@
 
         <!-- VoiceChat API -->
         <dependency>
-            <groupId>de.maxhenkel.voicechat</groupId>
-            <artifactId>voicechat-api</artifactId>
-            <version>2.5.27</version>
-            <scope>provided</scope>
-        </dependency>
+  <groupId>de.maxhenkel.voicechat</groupId>
+  <artifactId>voicechat-api</artifactId>
+  <version>2.5.27</version>
+</dependency>
 
         <!-- WebSocket Library (Java-WebSocket) -->
         <dependency>

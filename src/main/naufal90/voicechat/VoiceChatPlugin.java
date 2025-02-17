@@ -1,4 +1,4 @@
-package de.maxhenkel.voicechatplugin;
+package main.naufal90.voicechat;
 
 import de.maxhenkel.voicechat.api.VoiceChatManager;
 import de.maxhenkel.voicechat.api.VoiceChatPlayer;

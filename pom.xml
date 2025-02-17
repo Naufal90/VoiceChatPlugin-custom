@@ -26,12 +26,12 @@
             </snapshots>
         </repository>
 
-        <!-- Repository CodeMC untuk API VoiceChat -->
-       <repository>
-  <id>reposilite-repository-releases</id>
-  <name>henkelmax</name>
-  <url>https://maven.maxhenkel.de/releases</url>
-</repository>
+        <!-- Repository API VoiceChat -->
+        <repository>
+            <id>maxhenkel-repo</id>
+            <url>https://maven.maxhenkel.de/releases</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!-- Spigot API -->
@@ -44,12 +44,12 @@
 
         <!-- VoiceChat API -->
         <dependency>
-  <groupId>de.maxhenkel.voicechat</groupId>
-  <artifactId>voicechat-api</artifactId>
-  <version>2.5.27</version>
-</dependency>
+            <groupId>de.maxhenkel.voicechat</groupId>
+            <artifactId>voicechat-api</artifactId>
+            <version>2.5.27</version>
+        </dependency>
 
-        <!-- WebSocket Library (Java-WebSocket) -->
+        <!-- WebSocket Library -->
         <dependency>
             <groupId>org.java-websocket</groupId>
             <artifactId>Java-WebSocket</artifactId>
@@ -70,7 +70,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Plugin untuk membangun plugin Bukkit -->
+            <!-- Plugin untuk shading dependency -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
